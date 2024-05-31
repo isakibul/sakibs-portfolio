@@ -17,7 +17,6 @@ body{
 }
 
 /* ---------- header ---------- */
-
 header {
     padding: 20px;
     max-width: 1200px;
@@ -188,6 +187,7 @@ nav {
     width: 400px;
 }
 
+/* ---------- services ---------- */
 .services{
     display: flex;
     justify-content: center;
@@ -214,6 +214,7 @@ nav {
     align-items: center;
 }
 
+/* ---------- about ---------- */
 .about{
     margin-top: 50px;
     margin: 0 10%;
@@ -231,6 +232,7 @@ nav {
     color: var(--font-gray);
 }
 
+/* ---------- experience ---------- */
 .experience{
     text-align: right;
 }
@@ -305,6 +307,7 @@ nav {
     margin-top: 50px;
 }
 
+/* ---------- award ---------- */
 .award-section-title {
     text-align: center;
     font-size: var(--font-size-xxl);
@@ -319,7 +322,6 @@ nav {
     margin-bottom: 40px;
 }
 
-/* award */
 .award-container{
     margin: 0 10%;
     margin-top: 50px;
@@ -348,7 +350,7 @@ nav {
     color: var(--font-gray);
 }
 
-/* aoieuwr */
+/* ---------- portfolio ---------- */
 .portfolio {
     margin-top: 40px;
 }
@@ -425,7 +427,7 @@ nav {
     color: var(--font-gray);
 }
 
-/* ------ */
+/* ---------- contact ---------- */
 .contact {
     margin: 0 10%;
     margin-top: 50px;
@@ -529,7 +531,7 @@ form {
     background-color: #FD6F30;
 }
 
-
+/* ---------- footer ---------- */
 .footer {
     background-color: var(--background-secondary);
     padding: 60px 0;
@@ -732,6 +734,7 @@ form {
     .award-description{
         font-size: var(--font-size-xs);
     }
+    
     .portfolio-item{
         flex-direction: column;
         text-align: center;
@@ -752,10 +755,12 @@ form {
         flex-direction: column;
         text-align: center;
     }
+    
     .experience{
         margin-top: 20px;
         text-align: center;
     }
+    
     .experience h1{
         margin-top: 5px;
     }
@@ -794,6 +799,7 @@ form {
     .nav-links a{
         font-size: var(--font-size-xs);
     }
+    
     .hero h1 {
         font-size: var(--font-size-xl);
     }
